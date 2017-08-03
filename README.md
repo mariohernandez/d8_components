@@ -48,5 +48,15 @@ In order to follow along in the Component Driven Development workshop, please en
 3. [Intall NVM](https://github.com/coreybutler/nvm-windows)
 4. [Install Yeoman](http://yeoman.io/codelab/setup.html)
 
+## Disable Drupal 8 Caching
+This is necessary to properly debug and inspect drupal pages.
+* https://www.drupal.org/node/2598914
+
+## Drupal Modules
+Install and enable the following modules which will be used during this workshop.
+* [Devel and Kint](https://www.drupal.org/project/devel)
+* [Paragraphs](https://www.drupal.org/project/paragraphs)
+* [Components Libraries](https://www.drupal.org/project/components)
+
 
 
