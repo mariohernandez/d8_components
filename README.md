@@ -16,10 +16,10 @@ In order to follow along in the Component Driven Development workshop, please en
 
 ## Installing the tools
 1. Install and configure Homebrew if you are using a Mac (recommended):
-  * `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-  * Ensure homebrew is up to date by running `brew update`
-  * To make sure your system is ready to brew, run `brew doctor`
-  * Add Homebrew's location to your $PATH in your `.bash_profile` or `.zshrc` file by running `export PATH="/usr/local/bin:$PATH"`
+   * `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+   * Ensure homebrew is up to date by running `brew update`
+   * To make sure your system is ready to brew, run `brew doctor`
+   * Add Homebrew's location to your $PATH in your `.bash_profile` or `.zshrc` file by running `export PATH="/usr/local/bin:$PATH"`
 
 2. Install NodeJS and NPM.  NPM will be installed with Node.
   * `brew install node`
