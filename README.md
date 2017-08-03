@@ -22,22 +22,22 @@ In order to follow along in the Component Driven Development workshop, please en
    * Add Homebrew's location to your $PATH in your `.bash_profile` or `.zshrc` file by running `export PATH="/usr/local/bin:$PATH"`
 
 2. Install NodeJS and NPM.  NPM will be installed with Node.
-  * `brew install node`
+   * `brew install node`
 
 3. Install Gulp globally
-  * `npm install gulp-cli -g`
-  * `npm install gulp -D`
+   * `npm install gulp-cli -g`
+   * `npm install gulp -D`
 
 4. Install and configure NVM to manage node versions
-  * `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash`
-  * Edit your machine's profile on either `~/.bash_profile`, `~/.zshrc`, `~/.profile`, or `~/.bashrc` by pasting the following in one of those files above:
-  * `export NVM_DIR=~/.nvm` if not already there.
+   * `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash`
+   * Edit your machine's profile on either `~/.bash_profile`, `~/.zshrc`, `~/.profile`, or `~/.bashrc` by pasting the following in one of those files above:
+   * `export NVM_DIR=~/.nvm` if not already there.
 
 5. Intall KSS Node to generate the styleguide
-  * `npm install --save-dev kss`
+   * `npm install --save-dev kss`
 
 6. Install Yeoman and Mediacurrent's Theme Generator to be able to generate our theme later
-  * `npm install -g yo generator-mc-d8-theme`
+   * `npm install -g yo generator-mc-d8-theme`
 
 
 ### That should do it.
