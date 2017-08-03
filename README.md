@@ -4,15 +4,15 @@
 In order to follow along in the Component Driven Development workshop, please ensure the following setup is complete prior to starting the workshop.
 
 ## The Tools
-⋅⋅* [Homebrew](https://brew.sh/): Package manager for OSx
-⋅⋅* [NodeJS](https://nodejs.org/en/): For plugins and development tools
-⋅⋅* [NPM](https://www.npmjs.com/):  To manage all node dependencies/packages
-⋅⋅* [Gulp](https://gulpjs.com/): To automate many of the development taks we will perform
+* [Homebrew](https://brew.sh/): Package manager for OSx
+* [NodeJS](https://nodejs.org/en/): For plugins and development tools
+* [NPM](https://www.npmjs.com/):  To manage all node dependencies/packages
+* [Gulp](https://gulpjs.com/): To automate many of the development taks we will perform
  to work properly.
 [NVM](https://github.com/creationix/nvm): To manage version of Node across projects.
-⋅⋅* [KSS Node](https://github.com/kss-node/kss-node/wiki/Quick-Start-Guide): To generate the styleguide
-⋅⋅* [Yeoman](http://yeoman.io/):  To create a project scaffolding using ...
-⋅⋅* [Mediacurrent's theme generator](https://github.com/mediacurrent/theme_generator_8).
+* [KSS Node](https://github.com/kss-node/kss-node/wiki/Quick-Start-Guide): To generate the styleguide
+* [Yeoman](http://yeoman.io/):  To create a project scaffolding using ...
+* [Mediacurrent's theme generator](https://github.com/mediacurrent/theme_generator_8).
 
 1. Install and configure Homebrew if you are using a Mac (recommended):
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
