@@ -1,0 +1,35 @@
+// Social Icons
+//
+// This is the social-icons component. It's an example.
+//
+// .social-icons--light - A light version of social icons.
+//
+// Markup: social-icons.twig
+//
+// Style guide: Components.Social Icons
+
+// Import site utilities.
+@import '../../global/utils/init';
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons__item {
+  margin: 0 1rem;
+
+  &--first {
+    margin-left: 0;
+  }
+}
+
+.social-icons__icon {
+  width: 32px;
+  height: 32px;
+}
+
+.social-icons--light {
+  svg {
+    fill: $color-alto;
+  }
+}

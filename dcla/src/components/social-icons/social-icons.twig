@@ -1,0 +1,20 @@
+{% import '@dcla/icons/icons.twig' as icons %}
+{{ attach_library('dcla/social-icons') }}
+
+<ul class="social-icons {{ classes|default('') }}">
+  {% for item in items %}
+    {% if loop.first %}
+      {% set item_class = 'social-icons__item social-icons__item--first' %}
+    {% elseif loop.last %}
+      {% set item_class = 'social-icons__item social-icons__item--last' %}
+    {% else %}
+      {% set item_class = 'social-icons__item' %}
+    {% endif %}
+
+    <li class="{{ item_class }}">
+      <a href="{{ item.url }}" class="social-icons__link">
+        {{ icons.get(item.icon, 'social-icons__icon') }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>

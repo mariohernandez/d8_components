@@ -1,0 +1,21 @@
+{
+  "items": [
+    {
+      "icon": "twitter",
+      "url": "#"
+    },
+    {
+      "icon": "facebook",
+      "url": "#"
+    },
+    {
+      "icon": "instagram",
+      "url": "#"
+    },
+    {
+      "icon": "youtube",
+      "url": "#"
+    }
+  ],
+  "classes": ""
+}

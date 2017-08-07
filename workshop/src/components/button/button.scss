@@ -1,0 +1,29 @@
+// Button
+//
+// This is the button component. It's an example.
+//
+// Markup: button.twig
+//
+// .button__light - Moves text to the right of image.
+//
+// Style guide: Components.Button
+
+// Import site utilities.
+@import '../../global/utils/init';
+
+.button {
+  display: inline-block;
+  padding: 10px 25px;
+  color: #fff;
+  background: #000;
+  text-decoration: none;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.8px;
+}
+
+.button__light {
+  background: #ccc;
+  color: #000;
+}

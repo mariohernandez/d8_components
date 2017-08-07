@@ -1,0 +1,36 @@
+// Card
+//
+// This is the Card component. It's an example.
+//
+// Markup: card.twig
+//
+// .card__right-text - Moves text to the right of image.
+//
+// Style guide: Components.card
+
+// Import site utilities.
+@import '../../global/utils/init';
+
+.card {
+  background: #ccc;
+
+  &.card__right-text {
+    display: flex;
+
+    .card__image {
+      flex: 0 0 400px;
+    }
+  }
+}
+
+.card__text {
+  color: #000;
+}
+
+.card__more {
+  margin-top: 20px;
+}
+
+.card__heading {
+  font-size: 30px;
+}
