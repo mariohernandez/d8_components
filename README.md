@@ -63,10 +63,11 @@ This theme includes Featured Sponsors component along with sub components.
 
 #### Workshop
 This theme was created during DrupalCamp LA 2017 workshop and includes a Card component which was also integrated into Drupal 8.
-![Card Component](/dcla.png "Card Component")
+![Card Component](/workshop.png "Card Component")
 
 ### Note
-To generate the styleguide and view the components, navigate into each of the folder (dcla & workshop), and run:
+* Follow the tools installation instructions above.
+* To generate the styleguide and view the components, navigate into each of the folder (dcla & workshop), and run:
 `npm install`
 
 `npm run build`
