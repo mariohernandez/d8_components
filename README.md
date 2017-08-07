@@ -54,8 +54,8 @@ Install and enable the following modules which will be used during this workshop
 * [Paragraphs](https://www.drupal.org/project/paragraphs)
 * [Components Libraries](https://www.drupal.org/project/components)
 
-## 8-6-17
-This repo includes two drupal themes which can be used on a D8 site.
+## DrupalCampLA
+This repo includes two drupal themes which can be used on a D8 site.  Both these themes were created as a result of sessions which took place during this year's camp.
 
 #### DCLA
 This theme includes Featured Sponsors component along with sub components.
