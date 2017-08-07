@@ -26,17 +26,13 @@ In order to follow along in the Component Driven Development workshop, please en
 
 3. Install Gulp globally
    * `npm install gulp-cli -g`
-   * `npm install gulp -D`
 
 4. Install and configure NVM to manage node versions
    * `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash`
    * Edit your machine's profile on either `~/.bash_profile`, `~/.zshrc`, `~/.profile`, or `~/.bashrc` by pasting the following in one of those files above:
    * `export NVM_DIR=~/.nvm` if not already there.
 
-5. Intall KSS Node to generate the styleguide
-   * `npm install --save-dev kss`
-
-6. Install Yeoman and Mediacurrent's Theme Generator to be able to generate our theme later
+5. Install Yeoman and Mediacurrent's Theme Generator to be able to generate our theme later
    * `npm install -g yo generator-mc-d8-theme`
 
 
@@ -57,6 +53,32 @@ Install and enable the following modules which will be used during this workshop
 * [Devel and Kint](https://www.drupal.org/project/devel)
 * [Paragraphs](https://www.drupal.org/project/paragraphs)
 * [Components Libraries](https://www.drupal.org/project/components)
+
+## 8-6-17
+This repo includes two drupal themes which can be used on a D8 site.
+
+#### DCLA
+This theme includes Featured Sponsors component along with sub components.
+![Featured Sponsors Component](/dcla.png "Featured Sponsors Component")
+
+#### Workshop
+This theme was created during DrupalCamp LA 2017 workshop and includes a Card component which was also integrated into Drupal 8.
+![Card Component](/dcla.png "Card Component")
+
+### Note
+To generate the styleguide and view the components, navigate into each of the folder (dcla & workshop), and run:
+`npm install`
+
+`npm run build`
+
+Then you can navigation to
+`http://your-local/dcla/dist/style-guide/`
+
+or
+
+`http://your-local/workshop/dist/style-guide/`
+
+Components markup can be found under `dcla or workshop/src/components/`
 
 
 
