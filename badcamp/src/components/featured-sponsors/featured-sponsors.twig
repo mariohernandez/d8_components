@@ -1,0 +1,53 @@
+{{ attach_library('dcla/featured-sponsors') }}
+<div class="featured-sponsors {{ class|default('') }}">
+  {% if image or socialIcons %}
+    <div class="featured-sponsors__left">
+      {% if image %}
+        <div class="featured-sponsors__image">
+          {{ image }}
+        </div>
+      {% endif %}
+
+      <div class="featured-sponsors__intro">
+        {% if subheading %}
+          <h2 class="featured-sponsors__subheading">{{ subheading }}</h2>
+        {% endif %}
+        {% if body %}
+          <div class="featured-sponsors__body">{{ body }}</div>
+        {% endif %}
+      </div>
+
+      {# Include social media icons #}
+      {% if socialIcons %}
+        {%
+          include '@dcla/social-icons/social-icons.twig' with {
+            'items': socialIcons,
+            'classes': 'featured-sponsors__social-icons social-icons--light',
+          } only
+        %}
+      {% endif %}
+    </div>
+  {% endif %}
+  <div class="featured-sponsors__right">
+    <div class="featured-sponsors__block">
+      {# Include sponsors component #}
+      {%
+        include '@dcla/sponsors/sponsors.twig' with {
+          'items': sponsors,
+          'classes': 'featured-sponsors__items',
+        } only
+      %}
+    </div>
+
+    {% if becomeSponsor.url %}
+      <div class="featured-sponsors__become-one">
+        {%
+          include '@dcla/button/button.twig' with {
+            'text': becomeSponsor.text,
+            'url': becomeSponsor.url,
+          } only
+        %}
+      </div>
+    {% endif %}
+  </div>
+</div>

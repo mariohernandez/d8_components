@@ -1,0 +1,25 @@
+{
+  "name": "Jonathan Smith",
+  "image": "<img src='../assets/mountains.png' alt='Volunteer image'>",
+  "type": "Speaker",
+  "bio": "Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus.",
+  "socialIcons": [
+    {
+      "icon": "twitter",
+      "url": "#"
+    },
+    {
+      "icon": "facebook",
+      "url": "#"
+    },
+    {
+      "icon": "instagram",
+      "url": "#"
+    },
+    {
+      "icon": "youtube",
+      "url": "#"
+    }
+  ],
+  "class": ""
+}

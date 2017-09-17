@@ -1,0 +1,15 @@
+.button {
+  background: #009ED6;
+  color: #FFF;
+  display: inline-block;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 300;
+  letter-spacing: 0.12rem; }
+  .button:hover {
+    text-decoration: none;
+    color: #FFF;
+    background: #0078a3; }

@@ -1,0 +1,93 @@
+.featured-sponsors {
+  background: #eee;
+  margin: 5rem 0 10rem; }
+  @media (min-width: 55em) {
+    .featured-sponsors {
+      display: -ms-flexbox;
+      display: flex; } }
+
+.featured-sponsors__wrapper {
+  margin-bottom: 8rem; }
+
+.featured-sponsors__image {
+  line-height: 0.8;
+  overflow: hidden;
+  -ms-flex: 0 0 400px;
+  flex: 0 0 400px;
+  background: linear-gradient(#B5EBEB, #5DAC5D); }
+  .featured-sponsors__image img {
+    width: 100%; }
+
+.featured-sponsors__social-icons {
+  background: #000;
+  padding: 1rem 2.5rem;
+  line-height: 1;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+  .featured-sponsors__social-icons .social-icons__item {
+    margin: 0;
+    padding: 0; }
+
+.featured-sponsors__left {
+  position: relative; }
+
+.featured-sponsors__intro {
+  position: absolute;
+  margin: 0 2rem;
+  padding: 2rem;
+  top: 20%;
+  box-shadow: 0 0 40px 5px rgba(0, 0, 0, 0.12);
+  border: 1px solid #eee;
+  background: rgba(255, 255, 255, 0.6); }
+  @media (min-width: 30em) {
+    .featured-sponsors__intro {
+      margin: 0 5rem;
+      top: 15%; } }
+  @media (min-width: 55em) {
+    .featured-sponsors__intro {
+      margin: 0 2rem; } }
+
+.featured-sponsors__right {
+  -ms-flex: 0 0 calc(100% - 400px);
+  flex: 0 0 calc(100% - 400px);
+  padding: 2rem 3rem; }
+  .featured-sponsors__teaser .featured-sponsors__right {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%; }
+
+@media (min-width: 55em) {
+  .featured-sponsors__items {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-direction: row;
+    flex-direction: row; } }
+
+.featured-sponsors__card {
+  border-radius: 0 4px 4px;
+  margin-bottom: 2rem;
+  font-weight: 300; }
+  @media (min-width: 55em) {
+    .featured-sponsors__card {
+      -ms-flex: 0 0 48%;
+      flex: 0 0 48%; }
+      .featured-sponsors__card:last-child {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%; } }
+  @media (min-width: 75em) {
+    .featured-sponsors__card {
+      margin-top: 5rem;
+      -ms-flex: 0 0 32%;
+      flex: 0 0 32%; }
+      .featured-sponsors__card:last-child {
+        -ms-flex: 0 0 32%;
+        flex: 0 0 32%; } }
+  .featured-sponsors__teaser .featured-sponsors__card {
+    padding-top: 2rem; }
+
+.featured-sponsors__become-one {
+  text-align: center;
+  margin-top: 4rem; }

@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "eyebrow": "Platinum",
+      "icon": "stack",
+      "title": "Stauffer",
+      "body": "Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod.",
+      "more": "#",
+      "moreText": "Learn more <span>&#x279D;</span>"
+    },
+    {
+      "eyebrow": "Gold",
+      "icon": "meter",
+      "title": "GBD",
+      "body": "Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod.",
+      "more": "#",
+      "moreText": "Learn more <span>&#x279D;</span>"
+    },
+    {
+      "eyebrow": "Silver",
+      "icon": "display",
+      "title": "Mediacurrent",
+      "body": "Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod.",
+      "more": "#",
+      "moreText": "Learn more <span>&#x279D;</span>"
+    }
+  ]
+}

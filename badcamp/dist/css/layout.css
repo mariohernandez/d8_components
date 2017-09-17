@@ -1,0 +1,19 @@
+main[role='main']::after {
+  content: '';
+  display: table;
+  clear: both; }
+
+.layout-content,
+.layout-sidebar-second {
+  display: block; }
+  @media (min-width: 64em) {
+    .layout-content,
+    .layout-sidebar-second {
+      float: left; } }
+
+@media (min-width: 64em) {
+  .layout-content {
+    width: 65%; }
+  .layout-sidebar-second {
+    width: 30%;
+    margin-left: 5%; } }

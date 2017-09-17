@@ -1,0 +1,29 @@
+// Button
+//
+// This is the button component. .
+//
+// Markup: button.twig
+//
+// Style guide: Components.Button
+
+// Import site utilities.
+@import '../../global/utils/init';
+
+.button {
+  background: $color-blue;
+  color: $color-white;
+  display: inline-block;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 300;
+  letter-spacing: 0.12rem;
+
+  &:hover {
+    text-decoration: none;
+    color: $color-white;
+    background: darken($color-blue, 10%);
+  }
+}
