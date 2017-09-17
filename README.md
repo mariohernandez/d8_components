@@ -54,32 +54,25 @@ Install and enable the following modules which will be used during this workshop
 * [Paragraphs](https://www.drupal.org/project/paragraphs)
 * [Components Libraries](https://www.drupal.org/project/components)
 
-## DrupalCampLA
-This repo includes two drupal themes which can be used on a D8 site.  Both these themes were created as a result of sessions which took place during this year's camp.
-
-#### DCLA
+#### BADCamp
 This theme includes Featured Sponsors component along with sub components.
-![Featured Sponsors Component](/dcla.png "Featured Sponsors Component")
-
-#### Workshop
-This theme was created during DrupalCamp LA 2017 workshop and includes a Card component which was also integrated into Drupal 8.
-![Card Component](/workshop.png "Card Component")
+![Featured Sponsors Component](/badcamp.png "Featured Sponsors Component")
 
 ### Note
 * Follow the tools installation instructions above.
-* To generate the styleguide and view the components, navigate into each of the folder (dcla & workshop), and run:
+* To generate the styleguide and view the components, navigate into each of the folder (badcamp & workshop), and run:
 `npm install`
 
 `npm run build`
 
 Then you can navigation to
-`http://your-local/dcla/dist/style-guide/`
+`http://your-local/badcamp/dist/style-guide/`
 
 or
 
-`http://your-local/workshop/dist/style-guide/`
+`http://your-local/badcamp/dist/style-guide/`
 
-Components markup can be found under `dcla or workshop/src/components/`
+Components markup can be found under `badcamp/src/components/`
 
 
 
