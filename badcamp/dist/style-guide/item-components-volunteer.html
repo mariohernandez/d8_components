@@ -110,7 +110,7 @@
                                                 <div class="kss-markup">
                   <button class="js-show-markup">Show Markup Example</button>
                   <template>
-                    <pre><code data-language="html">{{ attach_library(&#039;dcla/volunteer&#039;) }}
+                    <pre><code data-language="html">{{ attach_library(&#039;badcamp/volunteer&#039;) }}
 &lt;div class=&quot;volunteer {{ class|default(&#039;&#039;) }}&quot;&gt;
   {% if name %}
     &lt;h1 class=&quot;volunteer__name&quot;&gt;{{ name }}&lt;/h1&gt;
@@ -130,7 +130,7 @@
 
   {% if socialIcons %}
     {%
-      include &#039;@dcla/social-icons/social-icons.twig&#039; with {
+      include &#039;@badcamp/social-icons/social-icons.twig&#039; with {
         &#039;items&#039;: socialIcons,
         &#039;classes&#039;: &#039;volunteer__social-icons&#039;,
       } only

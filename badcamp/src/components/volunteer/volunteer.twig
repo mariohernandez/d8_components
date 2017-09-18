@@ -1,4 +1,4 @@
-{{ attach_library('dcla/volunteer') }}
+{{ attach_library('badcamp/volunteer') }}
 <div class="volunteer {{ class|default('') }}">
   {% if name %}
     <h1 class="volunteer__name">{{ name }}</h1>
@@ -18,7 +18,7 @@
 
   {% if socialIcons %}
     {%
-      include '@dcla/social-icons/social-icons.twig' with {
+      include '@badcamp/social-icons/social-icons.twig' with {
         'items': socialIcons,
         'classes': 'volunteer__social-icons',
       } only

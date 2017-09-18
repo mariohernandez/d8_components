@@ -93,13 +93,13 @@
                                                 <div class="kss-markup">
                   <button class="js-show-markup">Show Markup Example</button>
                   <template>
-                    <pre><code data-language="html">{% import &#039;@dcla/icons/icons.twig&#039; as icons %}
-{{ attach_library(&#039;dcla/card&#039;) }}
+                    <pre><code data-language="html">{% import &#039;@badcamp/icons/icons.twig&#039; as icons %}
+{{ attach_library(&#039;badcamp/card&#039;) }}
 
 &lt;article class=&quot;card {{ classes|default(&#039;&#039;) }}&quot;&gt;
   {% if eyebrow %}
     {%
-      include &#039;@dcla/eyebrow/eyebrow.twig&#039; with {
+      include &#039;@badcamp/eyebrow/eyebrow.twig&#039; with {
         &#039;eyebrow&#039;: eyebrow,
         &#039;classes&#039;: &#039;card__eyebrow&#039;,
       } only

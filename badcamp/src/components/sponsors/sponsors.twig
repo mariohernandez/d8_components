@@ -1,8 +1,8 @@
-{{ attach_library('dcla/sponsors') }}
+{{ attach_library('badcamp/sponsors') }}
 <div class="{{ classes|default('') }}">
   {% for item in items %}
     {%
-      include '@dcla/card/card.twig' with {
+      include '@badcamp/card/card.twig' with {
         'eyebrow': item.eyebrow,
         'icon': item.icon,
         'title': item.title,

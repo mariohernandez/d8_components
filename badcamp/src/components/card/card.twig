@@ -1,10 +1,10 @@
-{% import '@dcla/icons/icons.twig' as icons %}
-{{ attach_library('dcla/card') }}
+{% import '@badcamp/icons/icons.twig' as icons %}
+{{ attach_library('badcamp/card') }}
 
 <article class="card {{ classes|default('') }}">
   {% if eyebrow %}
     {%
-      include '@dcla/eyebrow/eyebrow.twig' with {
+      include '@badcamp/eyebrow/eyebrow.twig' with {
         'eyebrow': eyebrow,
         'classes': 'card__eyebrow',
       } only

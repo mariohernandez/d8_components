@@ -193,7 +193,7 @@
                                                 <div class="kss-markup">
                   <button class="js-show-markup">Show Markup Example</button>
                   <template>
-                    <pre><code data-language="html">{{ attach_library(&#039;dcla/featured-sponsors&#039;) }}
+                    <pre><code data-language="html">{{ attach_library(&#039;badcamp/featured-sponsors&#039;) }}
 &lt;div class=&quot;featured-sponsors {{ class|default(&#039;&#039;) }}&quot;&gt;
   {% if image or socialIcons %}
     &lt;div class=&quot;featured-sponsors__left&quot;&gt;
@@ -215,7 +215,7 @@
       {# Include social media icons #}
       {% if socialIcons %}
         {%
-          include &#039;@dcla/social-icons/social-icons.twig&#039; with {
+          include &#039;@badcamp/social-icons/social-icons.twig&#039; with {
             &#039;items&#039;: socialIcons,
             &#039;classes&#039;: &#039;featured-sponsors__social-icons social-icons--light&#039;,
           } only
@@ -227,7 +227,7 @@
     &lt;div class=&quot;featured-sponsors__block&quot;&gt;
       {# Include sponsors component #}
       {%
-        include &#039;@dcla/sponsors/sponsors.twig&#039; with {
+        include &#039;@badcamp/sponsors/sponsors.twig&#039; with {
           &#039;items&#039;: sponsors,
           &#039;classes&#039;: &#039;featured-sponsors__items&#039;,
         } only
@@ -237,7 +237,7 @@
     {% if becomeSponsor.url %}
       &lt;div class=&quot;featured-sponsors__become-one&quot;&gt;
         {%
-          include &#039;@dcla/button/button.twig&#039; with {
+          include &#039;@badcamp/button/button.twig&#039; with {
             &#039;text&#039;: becomeSponsor.text,
             &#039;url&#039;: becomeSponsor.url,
           } only
