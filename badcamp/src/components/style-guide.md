@@ -1,4 +1,4 @@
-# DrupalCamp Los Angeles Style Guide
+# BADCamp Training Style Guide
 
 This application is a living style guide, generated from KSS documented styles.
 
