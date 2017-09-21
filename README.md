@@ -1,7 +1,15 @@
 # Component Driven Development
+The component-driven development workshop focuses on 3 areas:
+1. Building components in Twig using a living styleguide.
+2. Prepping Drupal environment in preparation for component integration.
+3. Integrate components with Drupal.
+
+These three areas are covered in my blog series "[Integrating Components with Drupal](https://www.mediacurrent.com/blog/integrating-components-drupal-8-part-1)".
+The workshop will use many of the techniques and approaches on the blog series with updates based on latest best practices.
+
 ### Local environment setup
 
-In order to follow along in the Component Driven Development workshop, please ensure the following setup is complete prior to starting the workshop.
+In order to follow along in this workshop, please ensure the following setup is complete prior to starting the workshop.
 
 ## The Tools
 * [Homebrew](https://brew.sh/): Package manager for OSx
@@ -14,65 +22,41 @@ In order to follow along in the Component Driven Development workshop, please en
 * [Yeoman](http://yeoman.io/):  To create a project scaffolding using ...
 * [Mediacurrent's theme generator](https://github.com/mediacurrent/theme_generator_8).
 
-## Installing the tools
-1. Install and configure Homebrew if you are using a Mac (recommended):
-   * `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-   * Ensure homebrew is up to date by running `brew update`
-   * To make sure your system is ready to brew, run `brew doctor`
-   * Add Homebrew's location to your $PATH in your `.bash_profile` or `.zshrc` file by running `export PATH="/usr/local/bin:$PATH"`
+## Compiling Sass, Javascript and Styleguide
+1. Navigate to `docroot/themes/custom/theme-name`
 
-2. Install NodeJS and NPM.  NPM will be installed with Node.
-   * `brew install node`
+2. Run `npm install`
 
-3. Install Gulp globally
-   * `npm install gulp-cli -g`
+3. Run `nvm install`
 
-4. Install and configure NVM to manage node versions
-   * `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash`
-   * Edit your machine's profile on either `~/.bash_profile`, `~/.zshrc`, `~/.profile`, or `~/.bashrc` by pasting the following in one of those files above:
-   * `export NVM_DIR=~/.nvm` if not already there.
+4. Run `npm run build`
 
-5. Install Yeoman and Mediacurrent's Theme Generator to be able to generate our theme later
-   * `npm install -g yo generator-mc-d8-theme`
+## Other commands you can run
+* `npm run compile`: Will compile Sass only
 
+* `npm run styleguide`: Will compile styleguide only
 
-### That should do it.
+* `npm run compress`:  Will compress assets
 
-## Windows Users
-1. [Install NodeJs and NPM](http://blog.teamtreehouse.com/install-node-js-npm-windows)
-2. [Install Gulp](https://gist.github.com/objarni/2ece180ddb69eb71564e)
-3. [Intall NVM](https://github.com/coreybutler/nvm-windows)
-4. [Install Yeoman](http://yeoman.io/codelab/setup.html)
 
 ## Disable Drupal 8 Caching
 This is necessary to properly debug and inspect drupal pages.
 * https://www.drupal.org/node/2598914
 
 ## Drupal Modules
-Install and enable the following modules which will be used during this workshop.
+Install and enable the following modules:
 * [Devel and Kint](https://www.drupal.org/project/devel)
 * [Paragraphs](https://www.drupal.org/project/paragraphs)
 * [Components Libraries](https://www.drupal.org/project/components)
 
-#### BADCamp
+#### Theme
 This theme includes Featured Sponsors component along with sub components.
 ![Featured Sponsors Component](/badcamp.png "Featured Sponsors Component")
 
-### Note
-* Follow the tools installation instructions above.
-* To generate the styleguide and view the components, navigate into each of the folder (badcamp & workshop), and run:
-`npm install`
+### Styleguide
+To view the styleguide navigate to `http://your-local/themes/custom/theme-name/dist/style-guide/`
 
-`npm run build`
-
-Then you can navigation to
-`http://your-local/badcamp/dist/style-guide/`
-
-or
-
-`http://your-local/badcamp/dist/style-guide/`
-
-Components markup can be found under `badcamp/src/components/`
+Components markup can be found under `theme-name/src/components/`
 
 
 
