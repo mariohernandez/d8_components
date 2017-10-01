@@ -26,10 +26,12 @@ This is necessary to properly debug and inspect drupal pages.
 * https://www.drupal.org/node/2598914
 
 ### Drupal Modules
-Install and enable the following modules:
+Install and enable the following modules (including dependencies):
 * [Devel and Kint](https://www.drupal.org/project/devel)
 * [Paragraphs](https://www.drupal.org/project/paragraphs)
 * [Components Libraries](https://www.drupal.org/project/components)
+* [UI_Patterns](https://www.drupal.org/project/ui_patterns).  **Do not enable until instructed to**
+* [Admin Toolbar](https://www.drupal.org/project/admin_toolbar) (optional)
 
 <!-- #### Theme
 This theme includes Featured Sponsors component along with sub components.
@@ -54,9 +56,3 @@ This theme includes Featured Sponsors component along with sub components.
 
 ### Styleguide
 To view the styleguide navigate to `http://your-local/themes/custom/theme-name/dist/style-guide/`
-
-<!--
-Components markup can be found under `theme-name/src/components/`
- -->
-
-
