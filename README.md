@@ -1,26 +1,25 @@
-# Component Driven Development
-The component-driven development workshop focuses on 3 areas:
+# Component Based Development in Drupal 8
+The component based development training focuses on 3 areas:
 1. Building components in Twig using a living styleguide.
-2. Prepping Drupal environment in preparation for component integration.
+2. Prepping Drupal environment for component integration.
 3. Integrate components with Drupal.
 
 These three areas are covered in my blog series "[Integrating Components with Drupal](https://www.mediacurrent.com/blog/integrating-components-drupal-8-part-1)".
-The workshop will use many of the techniques and approaches on the blog series with updates based on latest best practices.
+The training will use many of the techniques and approaches on the blog series with updates based on latest best practices.
 
 ### Local environment setup
 
-In order to follow along in this workshop, please ensure the following setup is complete prior to starting the workshop.
+In order to follow along in this training, please ensure the following setup is complete prior to starting the training.
 
-## The Tools
-* [Homebrew](https://brew.sh/): Package manager for OSx
+## Training Requirements
+* Laptop computer (mac preferred)
+* [Homebrew](https://brew.sh/): Package manager for OSx (optional)
 * [NodeJS](https://nodejs.org/en/): For plugins and development tools
-* [NPM](https://www.npmjs.com/):  To manage all node dependencies/packages
+* [NPM](https://www.npmjs.com/):  To manage node dependencies/packages
 * [Gulp](https://gulpjs.com/): To automate many of the development taks we will perform
- to work properly.
+ regularly.
 [NVM](https://github.com/creationix/nvm): To manage version of Node across projects.
-* [KSS Node](https://github.com/kss-node/kss-node/wiki/Quick-Start-Guide): To generate the styleguide
-* [Yeoman](http://yeoman.io/):  To create a project scaffolding using ...
-* [Mediacurrent's theme generator](https://github.com/mediacurrent/theme_generator_8).
+* [Mediacurrent's theme generator](https://github.com/mediacurrent/theme_generator_8).  We will install this during the training to generate a new base theme.
 
 ## Compiling Sass, Javascript and Styleguide
 1. Navigate to `docroot/themes/custom/theme-name`
