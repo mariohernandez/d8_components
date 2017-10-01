@@ -38,6 +38,8 @@ This theme includes Featured Sponsors component along with sub components.
 ![Featured Sponsors Component](/badcamp.png "Featured Sponsors Component")
  -->
 ## Compiling Sass, Javascript and Styleguide
+(_Steps 2 and 3 only need to run once_)
+
 1. Navigate to `docroot/themes/custom/theme-name`
 
 2. Run `npm install`
