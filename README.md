@@ -48,28 +48,21 @@ Install and enable the following modules (including dependencies):
 
 
 ### Other commands you can run
+```javascript
+npm run compile  //will compile Sass only
 ```
-npm run compile
-```
-Will compile Sass only
 
+```javascript
+npm run watch  //will watch for Sass changes and compile into CSS on save
+```
 
+```javascript
+npm run styleguide. //will compile styleguide only
 ```
-npm run watch
-```
-Will watch for Sass changes and compile into CSS on save
 
-
+```javascript
+npm run compress  //will compress assets
 ```
-npm run styleguide
-```
-Will compile styleguide only
-
-
-```
-npm run compress
-```
-Will compress assets
 
 #### Theme
 If you are having difficulties configuring or getting the Mediacurrent theme generator
