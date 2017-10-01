@@ -11,7 +11,7 @@ The training will use many of the techniques and approaches on the blog series w
 
 In order to follow along in this training, please ensure the following setup is complete prior to starting the training.
 
-### Training Requirements
+### Tools
 * Laptop computer (mac preferred)
 * [Homebrew](https://brew.sh/): Package manager for OSx (optional)
 * [NodeJS](https://nodejs.org/en/): For plugins and development tools
