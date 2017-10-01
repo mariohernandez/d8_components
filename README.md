@@ -51,6 +51,8 @@ This theme includes Featured Sponsors component along with sub components.
 ### Other commands you can run
 * `npm run compile`: Will compile Sass only
 
+* `npm run watch`: Will watch for Sass changes and compile into CSS on save
+
 * `npm run styleguide`: Will compile styleguide only
 
 * `npm run compress`:  Will compress assets
