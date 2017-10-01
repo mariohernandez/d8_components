@@ -48,17 +48,27 @@ Install and enable the following modules (including dependencies):
 
 
 ### Other commands you can run
-```npm run compile
+```
+npm run compile
 ```
 Will compile Sass only
 
-```npm run watch```
+
+```
+npm run watch
+```
 Will watch for Sass changes and compile into CSS on save
 
-```npm run styleguide```
+
+```
+npm run styleguide
+```
 Will compile styleguide only
 
-```npm run compress```
+
+```
+npm run compress
+```
 Will compress assets
 
 #### Theme
