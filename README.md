@@ -48,7 +48,8 @@ Install and enable the following modules (including dependencies):
 
 
 ### Other commands you can run
-```npm run compile```
+```npm run compile
+```
 Will compile Sass only
 
 ```npm run watch```
