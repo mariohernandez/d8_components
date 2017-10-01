@@ -33,10 +33,6 @@ Install and enable the following modules (including dependencies):
 * [UI_Patterns](https://www.drupal.org/project/ui_patterns).  **Do not enable until instructed to**
 * [Admin Toolbar](https://www.drupal.org/project/admin_toolbar) (optional)
 
-<!-- #### Theme
-This theme includes Featured Sponsors component along with sub components.
-![Featured Sponsors Component](/badcamp.png "Featured Sponsors Component")
- -->
 ## Compiling Sass, Javascript and Styleguide
 (_Steps 2 and 3 only need to run once_)
 
@@ -57,6 +53,11 @@ This theme includes Featured Sponsors component along with sub components.
 
 * `npm run compress`:  Will compress assets
 
+#### Theme
+If you are having difficulties configuring or getting the Mediacurrent theme generator
+you can grab the `badcamp` theme in this repo and save it in `docroot/themes/custom/`.
+<!-- ![Featured Sponsors Component](/badcamp.png "Featured Sponsors Component") -->
 
-### Styleguide
+
+#### Styleguide
 To view the styleguide navigate to `http://your-local/themes/custom/theme-name/dist/style-guide/`
