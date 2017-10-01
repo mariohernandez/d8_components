@@ -7,11 +7,11 @@ The component based development training focuses on 3 areas:
 These three areas are covered in my blog series "[Integrating Components with Drupal](https://www.mediacurrent.com/blog/integrating-components-drupal-8-part-1)".
 The training will use many of the techniques and approaches on the blog series with updates based on latest best practices.
 
-### Local environment setup
+## Local environment setup
 
 In order to follow along in this training, please ensure the following setup is complete prior to starting the training.
 
-## Training Requirements
+### Training Requirements
 * Laptop computer (mac preferred)
 * [Homebrew](https://brew.sh/): Package manager for OSx (optional)
 * [NodeJS](https://nodejs.org/en/): For plugins and development tools
@@ -21,11 +21,11 @@ In order to follow along in this training, please ensure the following setup is 
 [NVM](https://github.com/creationix/nvm): To manage version of Node across projects.
 * [Mediacurrent's theme generator](https://github.com/mediacurrent/theme_generator_8).  We will install this during the training to generate a new base theme.
 
-## Disable Drupal 8 Caching
+### Disable Drupal 8 Caching
 This is necessary to properly debug and inspect drupal pages.
 * https://www.drupal.org/node/2598914
 
-## Drupal Modules
+### Drupal Modules
 Install and enable the following modules:
 * [Devel and Kint](https://www.drupal.org/project/devel)
 * [Paragraphs](https://www.drupal.org/project/paragraphs)
@@ -44,7 +44,7 @@ This theme includes Featured Sponsors component along with sub components.
 
 4. Run `npm run build`
 
-## Other commands you can run
+### Other commands you can run
 * `npm run compile`: Will compile Sass only
 
 * `npm run styleguide`: Will compile styleguide only
