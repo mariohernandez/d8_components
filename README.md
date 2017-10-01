@@ -21,6 +21,20 @@ In order to follow along in this training, please ensure the following setup is 
 [NVM](https://github.com/creationix/nvm): To manage version of Node across projects.
 * [Mediacurrent's theme generator](https://github.com/mediacurrent/theme_generator_8).  We will install this during the training to generate a new base theme.
 
+## Disable Drupal 8 Caching
+This is necessary to properly debug and inspect drupal pages.
+* https://www.drupal.org/node/2598914
+
+## Drupal Modules
+Install and enable the following modules:
+* [Devel and Kint](https://www.drupal.org/project/devel)
+* [Paragraphs](https://www.drupal.org/project/paragraphs)
+* [Components Libraries](https://www.drupal.org/project/components)
+
+<!-- #### Theme
+This theme includes Featured Sponsors component along with sub components.
+![Featured Sponsors Component](/badcamp.png "Featured Sponsors Component")
+ -->
 ## Compiling Sass, Javascript and Styleguide
 1. Navigate to `docroot/themes/custom/theme-name`
 
@@ -38,24 +52,11 @@ In order to follow along in this training, please ensure the following setup is 
 * `npm run compress`:  Will compress assets
 
 
-## Disable Drupal 8 Caching
-This is necessary to properly debug and inspect drupal pages.
-* https://www.drupal.org/node/2598914
-
-## Drupal Modules
-Install and enable the following modules:
-* [Devel and Kint](https://www.drupal.org/project/devel)
-* [Paragraphs](https://www.drupal.org/project/paragraphs)
-* [Components Libraries](https://www.drupal.org/project/components)
-
-#### Theme
-This theme includes Featured Sponsors component along with sub components.
-![Featured Sponsors Component](/badcamp.png "Featured Sponsors Component")
-
 ### Styleguide
 To view the styleguide navigate to `http://your-local/themes/custom/theme-name/dist/style-guide/`
 
+<!--
 Components markup can be found under `theme-name/src/components/`
-
+ -->
 
 
