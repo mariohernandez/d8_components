@@ -9,9 +9,11 @@ The training will use many of the techniques and approaches on the blog series w
 
 ## Local environment setup
 
-In order to follow along in this training, please ensure the following setup is complete prior to starting the training.
+Your local environment needs to be configured with the tools below to be able to follow along.  Please ensure your environment is fully configured prior to starting the training to make our time more productive.
+**NOTE**:  Help with your local environment setup will be extremely limited.
 
 ### Tools
+The insturctions provided with each tool are optional but recommended.  Feel free to improvise.
 * Laptop computer (mac preferred)
 * [Homebrew](https://brew.sh/): Package manager for OSx (optional)
 * [NodeJS](https://nodejs.org/en/): For plugins and development tools
@@ -21,8 +23,8 @@ In order to follow along in this training, please ensure the following setup is 
 [NVM](https://github.com/creationix/nvm): To manage version of Node across projects.
 * [Mediacurrent's theme generator](https://github.com/mediacurrent/theme_generator_8).  We will install this during the training to generate a new base theme.
 
-### Disable Drupal 8 Caching
-This is necessary to properly debug and inspect drupal pages.
+### Disable Drupal 8 Caching & enable Twig Debugging
+This is necessary to properly debug and inspect twig templates.
 * https://www.drupal.org/node/2598914
 
 ### Drupal Modules
@@ -38,11 +40,12 @@ Install and enable the following modules (including dependencies):
 
 1. Navigate to `docroot/themes/custom/theme-name`
 
-2. Run `npm install`
+2. Run `npm install` to install all theme plugins and dependencies
 
-3. Run `nvm install`
+3. Run `nvm install` to install version of node located in `.nvmrc`
 
-4. Run `npm run build`
+4. Run `npm run build` to fully compile all theme's code
+
 
 ### Other commands you can run
 * `npm run compile`: Will compile Sass only
