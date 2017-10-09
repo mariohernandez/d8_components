@@ -199,7 +199,7 @@
     {%
       include &#039;@badcamp/eyebrow/eyebrow.twig&#039; with {
         &#039;eyebrow&#039;: eyebrow,
-        &#039;classes&#039;: &#039;card__eyebrow&#039;,
+        &#039;class&#039;: &#039;card__eyebrow&#039;,
       } only
     %}
   {% endif %}
@@ -287,7 +287,7 @@
                   <template>
                     <pre><code data-language="html">{{ attach_library(&#039;dcla/eyebrow&#039;) }}
 
-&lt;h3 class=&quot;eyebrow {{ modifier_class }}{{ classes|default(&#039;&#039;) }}&quot;&gt;
+&lt;h3 class=&quot;eyebrow {{ modifier_class }}{{ class|default(&#039;&#039;) }}&quot;&gt;
   {{ eyebrow }}
 &lt;/h3&gt;
 </code></pre>
@@ -327,7 +327,7 @@
       <div class="speaker__content">
       
 
-<h3 class="eyebrow ">
+<h3 class="eyebrow speaker__eyebrow">
   Trainer
 </h3>
               <p class="speaker__bio">Our team has been working with Drupal for almost a decade, currently leading the way on Drupal 8 Development, Consulting & Community.</p>
@@ -375,7 +375,7 @@
       <div class="speaker__content">
       
 
-<h3 class="eyebrow ">
+<h3 class="eyebrow speaker__eyebrow">
   Community Lead
 </h3>
               <p class="speaker__bio">I am Drupal Sitebuilder and Community Lead for Hook 42. I have been an active participant in the Drupal community for almost 2 years by contributing to projects and helping with documentation.</p>
@@ -423,7 +423,7 @@
       <div class="speaker__content">
       
 
-<h3 class="eyebrow ">
+<h3 class="eyebrow speaker__eyebrow">
   Speaker
 </h3>
               <p class="speaker__bio">Website developer, graphics guru, lover of all things #a11y...Star Wars fan (by default). accessibility lead & senior front-end dev @hook42inc</p>
@@ -555,7 +555,7 @@
 <div class="featured-sponsors__items">
       
 
-<article class="card featured-sponsors__card">
+<article class="card ">
       
 
 <h3 class="eyebrow card__eyebrow">
@@ -577,7 +577,7 @@
 </article>
       
 
-<article class="card featured-sponsors__card">
+<article class="card ">
       
 
 <h3 class="eyebrow card__eyebrow">
@@ -599,7 +599,7 @@
 </article>
       
 
-<article class="card featured-sponsors__card">
+<article class="card ">
       
 
 <h3 class="eyebrow card__eyebrow">
@@ -843,7 +843,7 @@
       <div class="speaker__content">
       
 
-<h3 class="eyebrow ">
+<h3 class="eyebrow speaker__eyebrow">
   Speaker
 </h3>
               <p class="speaker__bio">I am Drupal Sitebuilder and Community Lead for Hook 42. I have been an active participant in the Drupal community for almost 2 years by contributing to projects and helping with documentation.</p>
@@ -904,7 +904,7 @@
       {%
         include &#039;@badcamp/eyebrow/eyebrow.twig&#039; with {
           &#039;eyebrow&#039;: type,
-          &#039;class&#039;: &#039;speaker__type&#039;,
+          &#039;class&#039;: &#039;speaker__eyebrow&#039;,
         } only
       %}
       {% if bio %}
@@ -953,7 +953,7 @@
 <div class="">
       
 
-<article class="card featured-sponsors__card">
+<article class="card ">
       
 
 <h3 class="eyebrow card__eyebrow">
@@ -975,7 +975,7 @@
 </article>
       
 
-<article class="card featured-sponsors__card">
+<article class="card ">
       
 
 <h3 class="eyebrow card__eyebrow">
@@ -997,7 +997,7 @@
 </article>
       
 
-<article class="card featured-sponsors__card">
+<article class="card ">
       
 
 <h3 class="eyebrow card__eyebrow">
@@ -1036,7 +1036,7 @@
         &#039;body&#039;: item.body,
         &#039;more&#039;: item.more,
         &#039;moreText&#039;: item.moreText,
-        &#039;classes&#039;: &#039;featured-sponsors__card&#039;,
+        &#039;class&#039;: &#039;featured-sponsors__card&#039;,
       } only
     %}
   {% endfor %}

@@ -13,10 +13,6 @@
   border: 1px solid $color-blue;
   max-width: 400px;
   position: relative;
-
-  .eyebrow {
-    margin-bottom: 20px;
-  }
 }
 
 .speaker__header {
@@ -32,13 +28,7 @@
   width: 140px;
   height: 140px;
   margin: 0 auto 20px;
-}
-
-.speaker__content {
-  margin: 20px;
-  min-height: 250px;
-  overflow: hidden;
-  margin-bottom: 30px;
+  border: 1px solid $color-gold;
 }
 
 .speaker__name {
@@ -49,6 +39,17 @@
   line-height: 1;
   text-align: center;
   width: 100%;
+}
+
+.speaker__content {
+  margin: 20px;
+  min-height: 250px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.speaker__eyebrow {
+  margin-bottom: 20px;
 }
 
 .speaker__social-icons--wrapper {
@@ -67,6 +68,6 @@
   width: 200px;
 
   .social-icon--img {
-    fill: $color-white;
+    fill: $color-silver;
   }
 }

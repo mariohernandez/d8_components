@@ -2,8 +2,6 @@
   border: 1px solid #003954;
   max-width: 400px;
   position: relative; }
-  .speaker .eyebrow {
-    margin-bottom: 20px; }
 
 .speaker__header {
   background: #003954 url("../assets/speaker-bg.png") 0 0 no-repeat;
@@ -16,13 +14,8 @@
   display: block;
   width: 140px;
   height: 140px;
-  margin: 0 auto 20px; }
-
-.speaker__content {
-  margin: 20px;
-  min-height: 250px;
-  overflow: hidden;
-  margin-bottom: 30px; }
+  margin: 0 auto 20px;
+  border: 1px solid #DAA520; }
 
 .speaker__name {
   color: #FFF;
@@ -32,6 +25,15 @@
   line-height: 1;
   text-align: center;
   width: 100%; }
+
+.speaker__content {
+  margin: 20px;
+  min-height: 250px;
+  overflow: hidden;
+  margin-bottom: 30px; }
+
+.speaker__eyebrow {
+  margin-bottom: 20px; }
 
 .speaker__social-icons--wrapper {
   background: #003954;
@@ -48,4 +50,4 @@
   justify-content: space-between;
   width: 200px; }
   .speaker__social-icons .social-icon--img {
-    fill: #FFF; }
+    fill: #bbb; }
