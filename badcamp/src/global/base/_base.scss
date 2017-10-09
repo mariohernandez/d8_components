@@ -23,7 +23,6 @@
  */
 html {
   box-sizing: border-box;
-  font-family: sans-serif; /* 1 */
   line-height: 1.5; /* 2 */
   -ms-text-size-adjust: 100%; /* 3 */
   -webkit-text-size-adjust: 100%; /* 3 */
@@ -47,6 +46,7 @@ html {
  * Remove the margin in all browsers (opinionated).
  */
 body {
+  @include font-primary;
   margin: 0;
   font-size: 1.8rem;
   line-height: 1.5;

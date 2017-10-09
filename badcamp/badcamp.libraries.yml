@@ -71,3 +71,9 @@ sponsors:
       dist/css/sponsors.css: {}
   dependencies:
     - badcamp/card
+
+# Adding webfonts from google webfonts.
+webfonts:
+  css:
+    theme:
+      'https://fonts.googleapis.com/css?family=Raleway|Merriweather': { type: external, minified: true }
