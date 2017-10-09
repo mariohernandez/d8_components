@@ -1,0 +1,28 @@
+{
+  "name": "AmyJune Hineline",
+  "image": {
+    "src": "../assets/amyjune.jpg",
+    "alt": "Speaker background image"
+  },
+  "type": "Speaker",
+  "bio": "I am Drupal Sitebuilder and Community Lead for Hook 42. I have been an active participant in the Drupal community for almost 2 years by contributing to projects and helping with documentation.",
+  "items": [
+    {
+      "icon": "twitter",
+      "url": "#"
+    },
+    {
+      "icon": "facebook",
+      "url": "#"
+    },
+    {
+      "icon": "instagram",
+      "url": "#"
+    },
+    {
+      "icon": "youtube",
+      "url": "#"
+    }
+  ],
+  "class": ""
+}

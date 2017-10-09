@@ -1,0 +1,13 @@
+<section class="featured-speakers">
+  {% for item in items %}
+    {%
+      include '@badcamp/speaker/speaker.twig' with {
+        'image': item.image,
+        'name': item.name,
+        'bio': item.bio,
+        'type': item.type,
+        'items': item.items,
+    }
+    %}
+  {% endfor %}
+</section>

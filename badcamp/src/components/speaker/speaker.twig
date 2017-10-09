@@ -1,0 +1,37 @@
+{{ attach_library('badcamp/speaker') }}
+<article class="speaker {{ class|default('') }}">
+
+  {% if image %}
+    <div class="speaker__header">
+      <img class="speaker__photo" src="{{ image.src }}" alt="{{ image.alt }}">
+    {% if name %}
+      <h2 class="speaker__name">{{ name }}</h2>
+    {% endif %}
+    </div>
+  {% endif %}
+
+  {% if type or bio  %}
+    <div class="speaker__content">
+      {%
+        include '@badcamp/eyebrow/eyebrow.twig' with {
+          'eyebrow': type,
+          'class': 'speaker__type',
+        } only
+      %}
+      {% if bio %}
+        <p class="speaker__bio">{{ bio }}</p>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  {% if items %}
+    <div class="speaker__social-icons--wrapper">
+      {%
+        include '@badcamp/social-icons/social-icons.twig' with {
+          'items': items,
+          'classes': 'speaker__social-icons',
+        } only
+      %}
+  {% endif %}
+    </div>
+</article>

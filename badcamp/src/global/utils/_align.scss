@@ -1,0 +1,24 @@
+// vertical align mixin
+@mixin vertical-align($position: relative) {
+  display: block;
+  position: $position;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+// horizontal align mixin
+@mixin horizontal-align($position: relative) {
+  display: inline-block;
+  left: 50%;
+  position: $position;
+  transform: translateX(-50%);
+}
+
+// center align mixin
+@mixin center-align($position: relative) {
+  display: block;
+  left: 50%;
+  position: $position;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

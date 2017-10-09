@@ -1,0 +1,88 @@
+{
+  "items": [
+    {
+      "name": "Jes&#xfa;s M. Olivas",
+      "image": {
+        "src": "../assets/jesus-olivas.jpg",
+        "alt": "Speaker background image"
+      },
+      "type": "Trainer",
+      "bio": "Our team has been working with Drupal for almost a decade, currently leading the way on Drupal 8 Development, Consulting & Community.",
+      "items": [
+        {
+          "icon": "twitter",
+          "url": "#"
+        },
+        {
+          "icon": "facebook",
+          "url": "#"
+        },
+        {
+          "icon": "instagram",
+          "url": "#"
+        },
+        {
+          "icon": "youtube",
+          "url": "#"
+        }
+      ],
+      "class": ""
+    },
+{
+      "name": "AmyJune Hineline",
+      "image": {
+        "src": "../assets/amyjune.jpg",
+        "alt": "Speaker background image"
+      },
+      "type": "Community Lead",
+      "bio": "I am Drupal Sitebuilder and Community Lead for Hook 42. I have been an active participant in the Drupal community for almost 2 years by contributing to projects and helping with documentation.",
+      "items": [
+        {
+          "icon": "twitter",
+          "url": "#"
+        },
+        {
+          "icon": "facebook",
+          "url": "#"
+        },
+        {
+          "icon": "instagram",
+          "url": "#"
+        },
+        {
+          "icon": "youtube",
+          "url": "#"
+        }
+      ],
+      "class": ""
+    },
+{
+      "name": "Carie Fischer",
+      "image": {
+        "src": "../assets/carie.jpg",
+        "alt": "Speaker background image"
+      },
+      "type": "Speaker",
+      "bio": "Website developer, graphics guru, lover of all things #a11y...Star Wars fan (by default). accessibility lead & senior front-end dev @hook42inc",
+      "items": [
+        {
+          "icon": "twitter",
+          "url": "#"
+        },
+        {
+          "icon": "facebook",
+          "url": "#"
+        },
+        {
+          "icon": "instagram",
+          "url": "#"
+        },
+        {
+          "icon": "youtube",
+          "url": "#"
+        }
+      ],
+      "class": ""
+    }
+  ]
+}

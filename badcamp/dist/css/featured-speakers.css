@@ -1,0 +1,6 @@
+.featured-speakers {
+  display: -ms-flexbox;
+  display: flex; }
+
+.speaker {
+  margin: 0 14px 50px; }
