@@ -6,7 +6,7 @@
         "src": "../assets/jesus-olivas.jpg",
         "alt": "Speaker background image"
       },
-      "type": "Trainer",
+      "type": "Drupal Expert",
       "bio": "Our team has been working with Drupal for almost a decade, currently leading the way on Drupal 8 Development, Consulting & Community.",
       "items": [
         {
@@ -62,7 +62,7 @@
         "src": "../assets/carie.jpg",
         "alt": "Speaker background image"
       },
-      "type": "Speaker",
+      "type": "Accessibility Guru",
       "bio": "Website developer, graphics guru, lover of all things #a11y...Star Wars fan (by default). accessibility lead & senior front-end dev @hook42inc",
       "items": [
         {
